@@ -11,8 +11,8 @@ class Example03Test {
     @Test
     public void testAdd3And5(){
 
-        int expected = 8;
-        int actual = Example03.add.apply(3).apply(5);
+        Integer expected = 8;
+        Integer actual = Example03.add.apply(3).apply(5);
         assertEquals(expected, actual, "Should return 8");
 
     }
